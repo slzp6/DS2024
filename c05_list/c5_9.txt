@@ -1,0 +1,9 @@
+linked list
+50 40 30 20 10 
+
+deleted (index 3):  20
+50 40 30 10 
+
+deleted (index 2):  30
+50 40 10 
+

@@ -1,0 +1,2 @@
+number of nodes:  5
+number of edges:  7

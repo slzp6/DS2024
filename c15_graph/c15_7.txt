@@ -1,0 +1,2 @@
+connected:  False
+components:  [{'c', 'd', 'b', 'a'}, {'e', 'g', 'h', 'i', 'f'}]

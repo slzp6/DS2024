@@ -1,0 +1,3 @@
+n= 10000
+Quciksort 1st: 0.008 sec.
+Quciksort 2nd: 2.113 sec.

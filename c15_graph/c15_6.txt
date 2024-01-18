@@ -1,0 +1,2 @@
+all path(s): [['a', 'b', 'd'], ['a', 'c', 'd'], ['a', 'd']]
+shortest path: ['a', 'd']

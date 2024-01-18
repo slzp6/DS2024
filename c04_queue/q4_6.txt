@@ -1,0 +1,8 @@
+circular queue: Empty
+H E L L O 
+ dequeue: H
+ dequeue: E
+ dequeue: L
+ dequeue: L
+ dequeue: O
+circular queue: Empty

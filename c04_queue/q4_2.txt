@@ -1,0 +1,25 @@
+deque([])
+ append:  10
+ append:  20
+ append:  30
+ append:  40
+ append:  50
+deque([10, 20, 30, 40, 50])
+ popleft: 10
+deque([20, 30, 40, 50])
+ appendleft: 60
+deque([60, 20, 30, 40, 50])
+ extendleft: [70]
+deque([70, 60, 20, 30, 40, 50])
+ append: 80
+deque([70, 60, 20, 30, 40, 50, 80])
+ extend: [90,100,110]
+deque([70, 60, 20, 30, 40, 50, 80, 90, 100, 110])
+ pop: 70
+deque([60, 20, 30, 40, 50, 80, 90, 100, 110])
+ rotate(3) 
+deque([90, 100, 110, 60, 20, 30, 40, 50, 80])
+ remove: 30
+deque([90, 100, 110, 60, 20, 40, 50, 80])
+ clear() 
+deque([])

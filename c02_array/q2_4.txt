@@ -1,0 +1,11 @@
+rnbs_a (linear search): 1000
+rnbs_b (binary search): 1000
+rnbs_k (search keys): 2000
+---
+linear search (recursive)
+found:1000 , not_found:1000
+elapsed time: 0.082 sec.
+---
+binary search (recursive)
+found:1000 , not_found:1000
+elapsed time: 0.002 sec.

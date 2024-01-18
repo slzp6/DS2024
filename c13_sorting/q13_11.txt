@@ -1,0 +1,4 @@
+a= 1000000
+b= 1000000
+Quciksort_recursion: 1.227 sec.
+Quciksort_iterative: 1.256 sec.

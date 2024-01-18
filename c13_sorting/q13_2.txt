@@ -1,0 +1,2 @@
+n=1000000
+elapsed time: 0.205 sec.

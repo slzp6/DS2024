@@ -1,0 +1,9 @@
+rnbs:  [2201, 9325, 1033] ... [3061, 8573, 8709]
+bst insert  10000 ...
+done
+
+inorder traversal using stack: 
+[0, 1, 2] ... [9997, 9998, 9999]
+
+inorder_recursion: 
+[0, 1, 2] ... [9997, 9998, 9999]

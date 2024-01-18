@@ -1,0 +1,47 @@
+insert (key:value) 12 : 120
+insert (key:value) 15 : 150
+insert (key:value) 19 : 190
+insert (key:value) 25 : 250
+insert (key:value) 35 : 350
+--- hash table ---
+0: None (None) 
+1: None (None) 
+2: 12 (120) 
+3: None (None) 
+4: None (None) 
+5: 15 (150) 
+6: 25 (250) 
+7: 35 (350) 
+8: None (None) 
+9: 19 (190) 
+---
+search (key:value) 12 : 120
+search (key:value) 19 : 190
+search (key:value) 20 : None
+search (key:value) 24 : None
+--- hash table ---
+0: None (None) 
+1: None (None) 
+2: 12 (120) 
+3: None (None) 
+4: None (None) 
+5: 15 (150) 
+6: 25 (250) 
+7: 35 (350) 
+8: None (None) 
+9: 19 (190) 
+---
+delete (key:value) 12 : 120
+delete (key:value) 25 : 250
+--- hash table ---
+0: None (None) 
+1: None (None) 
+2: deleted(_) 
+3: None (None) 
+4: None (None) 
+5: 15 (150) 
+6: deleted(_) 
+7: 35 (350) 
+8: None (None) 
+9: 19 (190) 
+---

@@ -1,0 +1,6 @@
+[]
+empty: True
+[100, 200, 300]
+empty: False
+[]
+empty: True

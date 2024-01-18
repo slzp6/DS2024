@@ -1,0 +1,31 @@
+circular queue: Empty
+[ _ _ _ _ _ ] head: -1 tail: -1
+ enqueue: A
+[ A _ _ _ _ ] head: 0 tail: 0
+ enqueue: B
+[ A B _ _ _ ] head: 0 tail: 1
+ enqueue: C
+[ A B C _ _ ] head: 0 tail: 2
+ enqueue: D
+[ A B C D _ ] head: 0 tail: 3
+ enqueue: E
+[ A B C D E ] head: 0 tail: 4
+
+ dequeue: A
+[ _ B C D E ] head: 1 tail: 4
+ dequeue: B
+[ _ _ C D E ] head: 2 tail: 4
+ dequeue: C
+[ _ _ _ D E ] head: 3 tail: 4
+
+ enqueue: X
+[ X _ _ D E ] head: 3 tail: 0
+ enqueue: Y
+[ X Y _ D E ] head: 3 tail: 1
+
+ dequeue: D
+[ X Y _ _ E ] head: 4 tail: 1
+ dequeue: E
+[ X Y _ _ _ ] head: 0 tail: 1
+ dequeue: X
+[ _ Y _ _ _ ] head: 1 tail: 1

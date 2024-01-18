@@ -1,0 +1,36 @@
+insert (key:value)27 : 270
+insert (key:value)82 : 820
+insert (key:value)18 : 180
+insert (key:value)42 : 420
+insert (key:value)25 : 250
+--- hash table ---
+0: 
+1: 
+2: 82 (820) 42 (420) 
+3: 
+4: 
+5: 25 (250) 
+6: 
+7: 27 (270) 
+8: 18 (180) 
+9: 
+---
+search (key:value) 27 : 270
+search (key:value) 82 : 820
+search (key:value) 18 : 180
+search (key:value) 42 : 420
+search (key:value) 30 : None
+delete (key:value) 82 : 820
+delete (key:value) 18 : 180
+--- hash table ---
+0: 
+1: 
+2: 42 (420) 
+3: 
+4: 
+5: 25 (250) 
+6: 
+7: 27 (270) 
+8: 
+9: 
+---

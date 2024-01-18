@@ -1,0 +1,4 @@
+a=10000
+b=10000
+bubble_sort: 2.428 sec.
+Quciksort: 0.007 sec.

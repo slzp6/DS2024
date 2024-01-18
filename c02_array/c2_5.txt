@@ -1,0 +1,13 @@
+array('i', [10, 20, 30, 40])
+
+array_a[2] = 300
+array('i', [10, 20, 300, 40])
+
+del array_a[1]
+array('i', [10, 300, 40])
+
+10 in array_a
+True
+
+50 in array_a
+False

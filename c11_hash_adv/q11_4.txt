@@ -1,0 +1,24 @@
+insert (key:value)  58 : 580
+insert (key:value)  86 : 860
+insert (key:value)  54 : 540
+insert (key:value)  66 : 660
+insert (key:value)  57 : 570
+insert (key:value)  81 : 810
+insert (key:value)  78 : 780
+insert (key:value)  80 : 800
+insert (key:value)  74 : 740
+insert (key:value)  75 : 750
+--- hash table ---
+0: 80 (800)  
+1: 81 (810)  
+2: 
+3: 
+4: 54 (540)  74 (740)  
+5: 75 (750)  
+6: 86 (860)  66 (660)  
+7: 57 (570)  
+8: 58 (580)  78 (780)  
+9: 
+---
+item(s):  10
+collision(s):  3

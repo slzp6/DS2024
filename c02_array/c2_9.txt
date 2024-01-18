@@ -1,0 +1,13 @@
+org: [51, 54, 50, 52, 55, 56, 53]
+asc: [50, 51, 52, 53, 54, 55, 56]
+binary_search:48 -> index:None
+binary_search:49 -> index:None
+binary_search:50 -> index:0
+binary_search:51 -> index:1
+binary_search:52 -> index:2
+binary_search:53 -> index:3
+binary_search:54 -> index:4
+binary_search:55 -> index:5
+binary_search:56 -> index:6
+binary_search:57 -> index:None
+binary_search:58 -> index:None

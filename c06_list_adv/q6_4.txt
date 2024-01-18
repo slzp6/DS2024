@@ -1,0 +1,28 @@
+insert:  2
+DLL:  [2]
+insert:  4
+DLL:  [2, 4]
+insert:  0
+DLL:  [2, 4, 0]
+insert:  7
+DLL:  [2, 4, 0, 7]
+insert:  5
+DLL:  [2, 4, 0, 7, 5]
+insert:  1
+DLL:  [2, 4, 0, 7, 5, 1]
+insert:  6
+DLL:  [2, 4, 0, 7, 5, 1, 6]
+insert:  3
+DLL:  [2, 4, 0, 7, 5, 1, 6, 3]
+---
+delete:  6
+DLL:  [2, 4, 0, 7, 5, 1, 3]
+delete:  3
+DLL:  [2, 4, 0, 7, 5, 1]
+delete:  4
+DLL:  [2, 0, 7, 5, 1]
+delete:  2
+DLL:  [0, 7, 5, 1]
+---
+DLL(forward):  [0, 7, 5, 1]
+DLL(reverse):  [1, 5, 7, 0]

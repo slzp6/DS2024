@@ -1,0 +1,9 @@
+stack max size: 64
+stack size: 0
+stack size: 3
+ push: 300
+ push: 100
+stack size: 5
+ pop:  100
+ pop:  300
+stack size: 3

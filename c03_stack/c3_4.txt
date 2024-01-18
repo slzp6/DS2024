@@ -1,0 +1,8 @@
+[]
+['H', 'E', 'L', 'L', 'O']
+ pop: O
+ pop: L
+ pop: L
+ pop: E
+ pop: H
+[]

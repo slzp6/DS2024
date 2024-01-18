@@ -1,2 +1,3 @@
 # DS2024
-Fundamentals of Data Structures (OUJ)
+![ds2024](misc/ds2024.png)
+![ds2024_book](misc/ds2024_book.png)

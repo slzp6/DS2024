@@ -1,0 +1,11 @@
+0 mod 7 = 0
+1 mod 7 = 1
+2 mod 7 = 2
+3 mod 7 = 3
+4 mod 7 = 4
+5 mod 7 = 5
+6 mod 7 = 6
+7 mod 7 = 0
+8 mod 7 = 1
+9 mod 7 = 2
+10 mod 7 = 3

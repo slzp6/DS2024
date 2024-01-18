@@ -1,0 +1,12 @@
+org: [51, 54, 50, 52, 55, 56, 53]
+linear_search:48 -> index:None
+linear_search:49 -> index:None
+linear_search:50 -> index:2
+linear_search:51 -> index:0
+linear_search:52 -> index:3
+linear_search:53 -> index:6
+linear_search:54 -> index:1
+linear_search:55 -> index:4
+linear_search:56 -> index:5
+linear_search:57 -> index:None
+linear_search:58 -> index:None

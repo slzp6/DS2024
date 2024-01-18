@@ -1,0 +1,11 @@
+rnbs_a (linear search): 5000
+rnbs_b (sentinel search): 5000
+rnbs_k (search keys): 10000
+---
+linear search
+found:5000 , not_found:5000
+elapsed time: 0.69615 sec.
+---
+sentinel search
+found:5000 , not_found:5000
+elapsed time: 0.67458 sec.

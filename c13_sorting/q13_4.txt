@@ -1,0 +1,2 @@
+n=10000
+bubble_sort : 2.405 sec.

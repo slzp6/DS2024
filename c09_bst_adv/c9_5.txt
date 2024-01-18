@@ -1,0 +1,13 @@
+get recursion limit: 1000
+get recursion limit: 3000
+n= 1000
+rnbs_a:  [137, 582, 867] ... [280, 836, 852]
+rnbs_b:  [0, 1, 2] ... [997, 998, 999]
+
+elapsed time (a): 0.0008044242858886719 (sec.)
+elapsed time (b): 0.009804964065551758 (sec.)
+(b)/(a): 12.188796680497925
+
+*** height
+BST a: 20
+BST b: 1000

@@ -1,0 +1,6 @@
+N = 10000000
+statck: []
+push -> elapsed time: 1.393 sec.
+
+pop  -> elapsed time: 1.366 sec.
+statck: []

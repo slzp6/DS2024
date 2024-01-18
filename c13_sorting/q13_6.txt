@@ -1,0 +1,3 @@
+n=10000
+insertion_sort 1st: 0.934 sec.
+insertion_sort 2nd: 0.000 sec.

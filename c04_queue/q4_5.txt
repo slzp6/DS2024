@@ -1,0 +1,11 @@
+X = A mod B
+2 = 10 mod 4
+3 = 11 mod 4
+0 = 12 mod 4
+1 = 13 mod 4
+2 = 14 mod 4
+3 = 15 mod 4
+0 = 16 mod 4
+1 = 17 mod 4
+2 = 18 mod 4
+3 = 19 mod 4

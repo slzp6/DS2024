@@ -1,0 +1,11 @@
+deque([])
+ enqueue: 10
+ enqueue: 30
+ enqueue: 20
+deque([10, 30, 20])
+ enqueue: 50
+ enqueue: 40
+deque([10, 30, 20, 50, 40])
+ dequeue: 10
+ dequeue: 30
+deque([20, 50, 40])

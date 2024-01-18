@@ -1,0 +1,4 @@
+a=10000
+b=10000
+heap sort: 0.01556 sec.
+bubble sort: 2.16193 sec.

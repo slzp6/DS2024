@@ -1,0 +1,15 @@
+n= 1000000
+[:5] ->  [(140891, 'SZYCIDPYOP'), (683244, 'MZGDPAMNTY'), (804423, 'AWOIXZHSDK'), (32075, 'AAURAMVGNX'), (30451, 'QHYOPRHLHV')]
+priority queue (qsize): 1000000
+---
+  get [priority, data] -> (0, 'TAITXLDSBV')
+  get [priority, data] -> (1, 'EPYHOQQFWF')
+  get [priority, data] -> (1, 'GANHFEHRZI')
+  get [priority, data] -> (1, 'RKFSPTSKGA')
+  get [priority, data] -> (1, 'VKWHKFXCAW')
+  get [priority, data] -> (2, 'FBWWBDASOQ')
+  get [priority, data] -> (3, 'OETPEGQIWT')
+  get [priority, data] -> (3, 'WGNTCWATGM')
+  get [priority, data] -> (4, 'CEXAFZTLXS')
+  get [priority, data] -> (5, 'BPTEHJEHNA')
+priority queue (qsize): 999990

@@ -1,0 +1,3 @@
+dgree [b]:      3
+in-dgree [b]:   1
+out-dgree [b]:  2

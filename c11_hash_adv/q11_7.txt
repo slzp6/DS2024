@@ -1,0 +1,13 @@
+dict: {'apple': 10, 'banana': 20, 'cranberry': 30}
+
+keys: apple banana cranberry 
+
+values: 10 20 30 
+
+items: ('apple', 10) ('banana', 20) ('cranberry', 30) 
+
+dict: {'apple': 10, 'banana': 20, 'cranberry': 30}
+  insert ('durian': 40)
+dict: {'apple': 10, 'banana': 20, 'cranberry': 30, 'durian': 40}
+  pop 'banana' -> banana 20
+dict: {'apple': 10, 'cranberry': 30, 'durian': 40}

@@ -1,0 +1,12 @@
+gc collect:  0
+memory (0): 14.7
+
+BST(insert):
+ n: 1000
+ node data size: 1000000
+ height: 20
+memory (1): 62.9
+
+BST (delete):
+gc collect:  0
+memory (2): 62.9

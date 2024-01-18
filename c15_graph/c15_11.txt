@@ -1,0 +1,1 @@
+[('a', 'b', {'weight': 40}), ('a', 'c', {'weight': 30}), ('a', 'e', {'weight': 40}), ('b', 'd', {'weight': 80}), ('b', 'e', {'weight': 40}), ('c', 'e', {'weight': 30}), ('d', 'e', {'weight': 20})]

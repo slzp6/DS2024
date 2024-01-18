@@ -1,0 +1,10 @@
+# requirements.txt
+matplotlib
+networkx
+numpy
+pillow
+psutil
+pylint
+python-graphviz
+scipy
+yapf
