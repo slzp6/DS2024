@@ -1,5 +1,6 @@
 """ q15_6.py """
 
+import matplotlib.pyplot as plt
 import networkx as nx
 
 g = nx.gnp_random_graph(7, 0.5, seed=1)
@@ -24,3 +25,4 @@ nx.draw_networkx(g, pos=mpos, \
                  node_color='Cyan', \
                  node_size=200, \
                  font_size=12)
+plt.show()

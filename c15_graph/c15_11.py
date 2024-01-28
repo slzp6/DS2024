@@ -1,5 +1,6 @@
 """ c15_11.py """
 
+import matplotlib.pyplot as plt
 import networkx as nx
 
 g = nx.Graph()
@@ -17,9 +18,10 @@ print(g.edges(data=True))
 pos = nx.spring_layout(g, seed=2)
 weights = nx.get_edge_attributes(g, 'weight')
 
-nx.draw(g, pos, with_labels=True, \
+nx.draw_networkx(g, pos, with_labels=True, \
         node_color="deepskyblue",
         node_size=1000, font_size=25)
 nx.draw_networkx_edge_labels(g, pos, \
                              font_size=20, \
                              edge_labels=weights)
+plt.show()

@@ -25,5 +25,5 @@ nx.draw_networkx(g, pos=mpos, \
                  node_color='Cyan', \
                  node_size=200, \
                  font_size=12)
-
+plt.show()
 plt.savefig("q15_6p.png")

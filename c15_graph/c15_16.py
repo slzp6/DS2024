@@ -14,9 +14,9 @@ G_c = nx.from_edgelist([(0, 'z'), ('a', 'z')])
 G = nx.compose_all([G_a, G_b, G_c])
 
 pos = nx.spring_layout(G, seed=80586)
-nx.draw(G, pos, with_labels=True, node_size=1000, \
+nx.draw_networkx(G, pos, with_labels=True, node_size=1000, \
         font_size=25, node_color="deepskyblue")
-# plt.show()
+plt.show()
 
 dc = nx.degree_centrality(G)
 bc = nx.betweenness_centrality(G)

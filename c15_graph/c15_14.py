@@ -1,5 +1,6 @@
 """ c15_14.py """
 
+import matplotlib.pyplot as plt
 import networkx as nx
 
 g = nx.DiGraph()
@@ -21,9 +22,10 @@ print(a.todense())
 pos = nx.circular_layout(g)
 weights = nx.get_edge_attributes(g, 'weight')
 
-nx.draw(g, pos, with_labels=True, \
-        node_color="deepskyblue",
+nx.draw_networkx(g, pos, with_labels=True, \
+        node_color="deepskyblue", \
         node_size=1000, font_size=25)
 nx.draw_networkx_edge_labels(g, pos, \
                              font_size=20, \
                              edge_labels=weights)
+plt.show()

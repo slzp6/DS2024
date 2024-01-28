@@ -1,5 +1,6 @@
-""" q15_15.py """
+""" c15_15.py """
 
+import matplotlib.pyplot as plt
 import networkx as nx
 
 graph_a = {
@@ -33,3 +34,4 @@ nx.draw_networkx(g, pos=mpos, \
                  node_color='Cyan', \
                  node_size=800, \
                  font_size=25)
+plt.show()

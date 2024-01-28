@@ -1,5 +1,6 @@
 """ c15_7.py """
 
+import matplotlib.pyplot as plt
 import networkx as nx
 
 g = nx.Graph()
@@ -20,3 +21,4 @@ mpos = nx.spring_layout(g, seed=101)
 nx.draw_networkx(g, pos=mpos, \
                 node_color='Cyan', \
                 node_size=200, font_size=10)
+plt.show()

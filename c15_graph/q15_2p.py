@@ -18,5 +18,5 @@ mpos = nx.spring_layout(g, seed=2024)
 nx.draw_networkx(g, pos=mpos, \
                 node_color='Cyan', \
                 node_size=1000, font_size=25)
-
+plt.show()
 plt.savefig("q15_2p.png")

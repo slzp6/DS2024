@@ -44,5 +44,5 @@ nx.draw_networkx(g, pos=mpos, \
     node_size=400, font_size=20)
 nx.draw_networkx_edge_labels(g, pos=mpos, \
         edge_labels=edge_labels,font_size=15)
-
+plt.show()
 plt.savefig("q15_5p.png")

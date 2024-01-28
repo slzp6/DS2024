@@ -1,2 +1,2 @@
 connected:  False
-components:  [{'c', 'd', 'b', 'a'}, {'e', 'g', 'h', 'i', 'f'}]
+components:  [{'a', 'c', 'b', 'd'}, {'i', 'g', 'f', 'h', 'e'}]

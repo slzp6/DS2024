@@ -1,5 +1,6 @@
 """ q15_5.py """
 
+import matplotlib.pyplot as plt
 import networkx as nx
 
 g = nx.Graph()
@@ -43,3 +44,4 @@ nx.draw_networkx(g, pos=mpos, \
     node_size=400, font_size=20)
 nx.draw_networkx_edge_labels(g, pos=mpos, \
         edge_labels=edge_labels,font_size=15)
+plt.show()
