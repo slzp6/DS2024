@@ -1,6 +1,10 @@
 // q12-5.pov (v1.24.00)
 
+#version 3.7;
+
 #include "colors.inc"      
+
+global_settings { assumed_gamma 1.0 }
 
 #declare pt1 = <cos(90.0*pi/180.0),sin(90.0*pi/180.0),0>;
 #declare pt2 = <cos(210.0*pi/180.0),sin(210.0*pi/180.0),0>;
