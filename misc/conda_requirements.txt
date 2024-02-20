@@ -12,7 +12,6 @@ atomicwrites=1.4.0=py_0
 attrs=23.1.0=py311h06a4308_0
 autopep8=1.6.0=pyhd3eb1b0_1
 babel=2.11.0=py311h06a4308_0
-backcall=0.2.0=pyhd3eb1b0_0
 beautifulsoup4=4.12.2=py311h06a4308_0
 binaryornot=0.4.4=pyhd3eb1b0_1
 black=23.11.0=py311h06a4308_0
@@ -26,7 +25,7 @@ bzip2=1.0.8=h7b6447c_0
 c-ares=1.19.1=h5eee18b_0
 ca-certificates=2023.12.12=h06a4308_0
 cairo=1.16.0=hb05425b_5
-certifi=2023.11.17=py311h06a4308_0
+certifi=2024.2.2=py311h06a4308_0
 cffi=1.16.0=py311h5eee18b_0
 chardet=4.0.0=py311h06a4308_1003
 charset-normalizer=2.0.4=pyhd3eb1b0_0
@@ -36,7 +35,7 @@ colorama=0.4.6=py311h06a4308_0
 comm=0.1.2=py311h06a4308_0
 contourpy=1.2.0=py311hdb19cb5_0
 cookiecutter=2.5.0=py311h06a4308_0
-cryptography=41.0.7=py311hdda0065_0
+cryptography=42.0.2=py311hdda0065_0
 cycler=0.11.0=pyhd3eb1b0_0
 cyrus-sasl=2.1.28=h52b45da_1
 dbus=1.13.18=hb2f20db_0
@@ -62,7 +61,8 @@ freetype=2.12.1=h4a9f257_0
 fribidi=1.0.10=h7b6447c_0
 gdk-pixbuf=2.42.10=h5eee18b_0
 giflib=5.2.1=h5eee18b_3
-glib=2.69.1=he621ea3_2
+glib=2.78.4=h6a678d5_0
+glib-tools=2.78.4=h6a678d5_0
 gobject-introspection=1.72.0=py311hbb6d50b_2
 graphite2=1.3.14=h295c915_1
 graphviz=2.50.0=h1b29801_1
@@ -79,7 +79,7 @@ importlib_metadata=7.0.1=hd3eb1b0_0
 inflection=0.5.1=py311h06a4308_0
 intel-openmp=2023.1.0=hdb19cb5_46306
 intervaltree=3.1.0=pyhd3eb1b0_0
-ipykernel=6.25.0=py311h92b7b1e_0
+ipykernel=6.28.0=py311h06a4308_0
 ipython=8.20.0=py311h06a4308_0
 ipython_genutils=0.2.0=pyhd3eb1b0_1
 isort=5.9.3=pyhd3eb1b0_0
@@ -87,7 +87,7 @@ jaraco.classes=3.2.1=pyhd3eb1b0_0
 jedi=0.18.1=py311h06a4308_1
 jeepney=0.7.1=pyhd3eb1b0_0
 jellyfish=1.0.1=py311hb02cf49_0
-jinja2=3.1.2=py311h06a4308_0
+jinja2=3.1.3=py311h06a4308_0
 jpeg=9e=h5eee18b_1
 jsonschema=4.19.2=py311h06a4308_0
 jsonschema-specifications=2023.7.1=py311h06a4308_0
@@ -118,12 +118,13 @@ libgcc-ng=11.2.0=h1234567_1
 libgd=2.3.3=h6a678d5_3
 libgfortran-ng=11.2.0=h00389a5_1
 libgfortran5=11.2.0=h1234567_1
+libglib=2.78.4=hdc74915_0
 libgomp=11.2.0=h1234567_1
 libiconv=1.16=h7f8727e_2
 libllvm14=14.0.6=hdb19cb5_3
 libnghttp2=1.57.0=h2d74bed_0
 libpng=1.6.39=h5eee18b_0
-libpq=12.15=hdbd6064_1
+libpq=12.17=hdbd6064_0
 librsvg=2.54.4=h36cc946_3
 libsodium=1.0.18=h7b6447c_0
 libspatialindex=1.9.3=h2531618_0
@@ -168,13 +169,14 @@ numpy=1.26.3=py311h08b1b3b_0
 numpy-base=1.26.3=py311hf175353_0
 numpydoc=1.5.0=py311h06a4308_0
 openjpeg=2.4.0=h3ad879b_0
-openssl=3.0.12=h7f8727e_0
+openssl=3.0.13=h7f8727e_0
 packaging=23.1=py311h06a4308_0
 pandocfilters=1.5.0=pyhd3eb1b0_0
 pango=1.50.7=h05da053_0
 parso=0.8.3=pyhd3eb1b0_0
 pathspec=0.10.3=py311h06a4308_0
 pcre=8.45=h295c915_0
+pcre2=10.42=hebb0a14_0
 pexpect=4.8.0=pyhd3eb1b0_3
 pickleshare=0.7.5=pyhd3eb1b0_1003
 pillow=9.4.0=py311h6a678d5_0
@@ -198,13 +200,13 @@ pygments=2.15.1=py311h06a4308_1
 pylint=2.16.2=py311h06a4308_0
 pylint-venv=2.3.0=py311h06a4308_0
 pyls-spyder=0.4.0=pyhd3eb1b0_0
-pyopenssl=23.2.0=py311h06a4308_0
+pyopenssl=24.0.0=py311h06a4308_0
 pyparsing=3.0.9=py311h06a4308_0
 pyqt=5.15.10=py311h6a678d5_0
 pyqt5-sip=12.13.0=py311h5eee18b_0
 pyqtwebengine=5.15.10=py311h6a678d5_0
 pysocks=1.7.1=py311h06a4308_0
-python=3.11.5=h955ad1f_0
+python=3.11.7=h955ad1f_0
 python-dateutil=2.8.2=pyhd3eb1b0_0
 python-fastjsonschema=2.16.2=py311h06a4308_0
 python-graphviz=0.20.1=py311h06a4308_0
@@ -216,7 +218,7 @@ pytoolconfig=1.2.6=py311h06a4308_0
 pytz=2023.3.post1=py311h06a4308_0
 pyxdg=0.27=pyhd3eb1b0_0
 pyyaml=6.0.1=py311h5eee18b_0
-pyzmq=25.1.0=py311h6a678d5_0
+pyzmq=25.1.2=py311h6a678d5_0
 qdarkstyle=3.0.2=pyhd3eb1b0_0
 qstylizer=0.2.2=py311h06a4308_0
 qt-main=5.15.2=h53bd1ea_10
@@ -226,7 +228,7 @@ qtconsole=5.4.2=py311h06a4308_0
 qtpy=2.4.1=py311h06a4308_0
 readline=8.2=h5eee18b_0
 referencing=0.30.2=py311h06a4308_0
-requests=2.31.0=py311h06a4308_0
+requests=2.31.0=py311h06a4308_1
 rich=13.3.5=py311h06a4308_0
 rope=1.7.0=py311h06a4308_0
 rpds-py=0.10.6=py311hb02cf49_0
@@ -263,7 +265,7 @@ traitlets=5.7.1=py311h06a4308_0
 tzdata=2023d=h04d1e81_0
 ujson=5.4.0=py311h6a678d5_0
 unidecode=1.2.0=pyhd3eb1b0_0
-urllib3=1.26.18=py311h06a4308_0
+urllib3=2.1.0=py311h06a4308_1
 watchdog=2.1.6=py311h06a4308_0
 wcwidth=0.2.5=pyhd3eb1b0_0
 webencodings=0.5.1=py311h06a4308_1
@@ -274,7 +276,7 @@ wurlitzer=3.0.2=py311h06a4308_0
 xz=5.4.5=h5eee18b_0
 yaml=0.2.5=h7b6447c_0
 yapf=0.31.0=pyhd3eb1b0_0
-zeromq=4.3.4=h2531618_0
+zeromq=4.3.5=h6a678d5_0
 zipp=3.17.0=py311h06a4308_0
 zlib=1.2.13=h5eee18b_0
 zstd=1.5.5=hc292b87_0
