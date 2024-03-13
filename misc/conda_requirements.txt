@@ -22,7 +22,7 @@ boost-cpp=1.82.0=hdb19cb5_2
 brotli=1.0.9=h5eee18b_7
 brotli-bin=1.0.9=h5eee18b_7
 brotli-python=1.0.9=py311h6a678d5_7
-bzip2=1.0.8=h7b6447c_0
+bzip2=1.0.8=h5eee18b_5
 c-ares=1.19.1=h5eee18b_0
 ca-certificates=2023.12.12=h06a4308_0
 cairo=1.16.0=hb05425b_5
@@ -33,7 +33,7 @@ charset-normalizer=2.0.4=pyhd3eb1b0_0
 click=8.1.7=py311h06a4308_0
 cloudpickle=2.2.1=py311h06a4308_0
 colorama=0.4.6=py311h06a4308_0
-comm=0.1.2=py311h06a4308_0
+comm=0.2.1=py311h06a4308_0
 contourpy=1.2.0=py311hdb19cb5_0
 cookiecutter=2.5.0=py311h06a4308_0
 cryptography=42.0.2=py311hdda0065_0
@@ -95,7 +95,7 @@ jsonschema-specifications=2023.7.1=py311h06a4308_0
 jupyter_client=8.6.0=py311h06a4308_0
 jupyter_core=5.5.0=py311h06a4308_0
 jupyterlab_pygments=0.2.2=py311h06a4308_0
-keyring=23.13.1=py311h06a4308_0
+keyring=24.3.1=py311h06a4308_0
 kiwisolver=1.4.4=py311h6a678d5_0
 krb5=1.20.1=h143b758_1
 lazy-object-proxy=1.6.0=py311h5eee18b_0
@@ -199,7 +199,7 @@ pydocstyle=6.3.0=py311h06a4308_0
 pyflakes=3.0.1=py311h06a4308_0
 pygments=2.15.1=py311h06a4308_1
 pylint=2.16.2=py311h06a4308_0
-pylint-venv=2.3.0=py311h06a4308_0
+pylint-venv=3.0.3=py311h06a4308_0
 pyls-spyder=0.4.0=pyhd3eb1b0_0
 pyopenssl=24.0.0=py311h06a4308_0
 pyparsing=3.0.9=py311h06a4308_0
@@ -211,7 +211,7 @@ python=3.11.5=h955ad1f_0
 python-dateutil=2.8.2=pyhd3eb1b0_0
 python-fastjsonschema=2.16.2=py311h06a4308_0
 python-graphviz=0.20.1=py311h06a4308_0
-python-lsp-black=1.2.1=py311h06a4308_0
+python-lsp-black=2.0.0=py311h06a4308_0
 python-lsp-jsonrpc=1.1.2=pyhd3eb1b0_0
 python-lsp-server=1.7.2=py311h06a4308_0
 python-slugify=5.0.2=pyhd3eb1b0_0
@@ -274,7 +274,7 @@ whatthepatch=1.0.2=py311h06a4308_0
 wheel=0.41.2=py311h06a4308_0
 wrapt=1.14.1=py311h5eee18b_0
 wurlitzer=3.0.2=py311h06a4308_0
-xz=5.4.5=h5eee18b_0
+xz=5.4.6=h5eee18b_0
 yaml=0.2.5=h7b6447c_0
 yapf=0.31.0=pyhd3eb1b0_0
 zeromq=4.3.5=h6a678d5_0
