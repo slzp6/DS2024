@@ -14,9 +14,9 @@ g.add_nodes_from(nodes)
 g.add_edges_from(edges)
 
 N = 'b'
-print(f"dgree [{N}]:     ", g.degree(N))
-print(f"in-dgree [{N}]:  ", g.in_degree(N))
-print(f"out-dgree [{N}]: ", g.out_degree(N))
+print(f"degree [{N}]:     ", g.degree(N))
+print(f"in-degree [{N}]:  ", g.in_degree(N))
+print(f"out-degree [{N}]: ", g.out_degree(N))
 
 mpos = nx.spring_layout(g, seed=42)
 nx.draw_networkx(g, pos=mpos, \
