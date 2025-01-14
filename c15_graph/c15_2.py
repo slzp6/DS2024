@@ -10,12 +10,12 @@ def bfs(graph, node):
     print(f"push: {node} {queue} @")
     while queue:
         item = queue.pop(0)
-        print(f"pop:  {item} {queue}")
+        print(f"dequeue: {item} {queue}")
         for curr in graph[item]:
             if curr not in visited:
                 visited.append(curr)
                 queue.append(curr)
-                print(f"push: {curr} {queue} @")
+                print(f"enqueue: {curr} {queue} @")
     return visited
 
 

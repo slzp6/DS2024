@@ -1,18 +1,18 @@
 BFS (Breadth-First Search)
 push: a ['a'] @
-pop:  a []
-push: b ['b'] @
-push: c ['b', 'c'] @
-pop:  b ['c']
-push: d ['c', 'd'] @
-push: e ['c', 'd', 'e'] @
-pop:  c ['d', 'e']
-pop:  d ['e']
-push: f ['e', 'f'] @
-pop:  e ['f']
-push: g ['f', 'g'] @
-push: h ['f', 'g', 'h'] @
-pop:  f ['g', 'h']
-pop:  g ['h']
-pop:  h []
+dequeue: a []
+enqueue: b ['b'] @
+enqueue: c ['b', 'c'] @
+dequeue: b ['c']
+enqueue: d ['c', 'd'] @
+enqueue: e ['c', 'd', 'e'] @
+dequeue: c ['d', 'e']
+dequeue: d ['e']
+enqueue: f ['e', 'f'] @
+dequeue: e ['f']
+enqueue: g ['f', 'g'] @
+enqueue: h ['f', 'g', 'h'] @
+dequeue: f ['g', 'h']
+dequeue: g ['h']
+dequeue: h []
 ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h']
