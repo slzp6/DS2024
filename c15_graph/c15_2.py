@@ -7,7 +7,7 @@ def bfs(graph, node):
     queue = []
     visited.append(node)
     queue.append(node)
-    print(f"push: {node} {queue} @")
+    print(f"enqueue: {node} {queue} @")
     while queue:
         item = queue.pop(0)
         print(f"dequeue: {item} {queue}")

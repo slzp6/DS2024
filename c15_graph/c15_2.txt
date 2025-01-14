@@ -1,5 +1,5 @@
 BFS (Breadth-First Search)
-push: a ['a'] @
+enqueue: a ['a'] @
 dequeue: a []
 enqueue: b ['b'] @
 enqueue: c ['b', 'c'] @
