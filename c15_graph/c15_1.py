@@ -17,7 +17,7 @@ def dfs(graph, node):
             if curr not in visited:
                 visited.append(curr)
                 stack.append(curr)
-                print(f"push: {node} {stack}")
+                print(f"push: {curr} {stack}")
     return dfs_list
 
 

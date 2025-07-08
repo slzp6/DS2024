@@ -1,17 +1,17 @@
 DFS (Depth-First Search)
 push: a ['a']
 pop:  a [] @
-push: a ['c']
-push: a ['c', 'b']
+push: c ['c']
+push: b ['c', 'b']
 pop:  b ['c'] @
-push: a ['c', 'e']
-push: a ['c', 'e', 'd']
+push: e ['c', 'e']
+push: d ['c', 'e', 'd']
 pop:  d ['c', 'e'] @
-push: a ['c', 'e', 'f']
+push: f ['c', 'e', 'f']
 pop:  f ['c', 'e'] @
 pop:  e ['c'] @
-push: a ['c', 'h']
-push: a ['c', 'h', 'g']
+push: h ['c', 'h']
+push: g ['c', 'h', 'g']
 pop:  g ['c', 'h'] @
 pop:  h ['c'] @
 pop:  c [] @
