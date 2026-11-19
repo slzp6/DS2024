@@ -53,7 +53,7 @@ class BST:
         while True:
             if curr is None:
                 return None
-            if curr.key is key:
+            if curr.key == key:  # use ==, not `is` (identity ≠ equality)
                 return key
             if curr.key > key:
                 curr = curr.left
